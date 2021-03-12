@@ -16,5 +16,20 @@ namespace BillOfQuantity
         {
             InitializeComponent();
         }
+
+        private void cancelButton_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void editButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Il faut créer la fonctionnalité");
+        }
+
+        private void locateButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Vous avez choisi Locate");
+        }
     }
 }
